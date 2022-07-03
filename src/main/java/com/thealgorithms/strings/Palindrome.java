@@ -23,12 +23,12 @@ class Palindrome {
     /**
      * Check if a string is palindrome string or not
      *
-     * @param s a string to check
+     * @param ss a string to check
      * @return {@code true} if given string is palindrome, otherwise
      * {@code false}
      */
-    public static boolean isPalindrome(String s) {
-        return (s == null || s.length() <= 1) || s.equals(new StringBuilder(s).reverse().toString());
+    public static boolean isPalindrome(String ss) {
+        return (ss == null || ss.length() <= 1) || ss.equals(new StringBuilder(ss).reverse().toString());
     }
 
     /**

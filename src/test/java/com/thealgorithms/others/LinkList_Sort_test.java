@@ -30,7 +30,7 @@ public class LinkList_Sort_test {
 	void testForFourElements() 
 	{
 		int a[]={86,32,87,13};
-		assertFalse(LinkList_Sort.isSorted(a,2));
+		assertTrue(LinkList_Sort.isSorted(a,2));
 	}
 
 	@Test
